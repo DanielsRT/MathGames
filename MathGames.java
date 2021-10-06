@@ -28,6 +28,13 @@ public class MathGames {
         // (d) Students who miss more than 1 day in a week have detention.  How many
         // students had detention?
 
+        Student s1 = new Student();
+        System.out.println("\n\ns1 is " + s1);
+
+        Student s2 = new Student();
+        System.out.println("\n\ns2 is " + s2);
+
+
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M/dd/yyyy");
 
         String earliestAsString = "8/23/2021";
